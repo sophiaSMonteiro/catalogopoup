@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    /* zerou a margem */
+    padding: 0px;
+    /* zerou a borda */
+    box-sizing: border-box;
+    /* zerou o espaçamento interno */
+}
+
+ul {
+    display: flex;
+    /* deixa um ao lado do outro até o final da pagina */
+    list-style: none;
+    /* zerada */
+    gap: 40px;
+    /* espaço dentro da lista */
+}
+
+.menu {
+    color: #fff;
+    /* cor branca nas letras */
+    font-family: 'Open Sans';
+    /* fonte  */
+    font-size: 16px;
+    /* tamanho da letra */
+    font-weight: 800;
+    /* peso da fonte */
+    line-height: 50px;
+    /* espaço entre as letras */
+
+
+    background: var(--principal-2, #593000);
+    display: flex;
+    /* deixa um ao lado do outro */
+    padding: 24px;
+    /* espaço interno dentro da caixa */
+    justify-content: space-between;
+    /*  */
+    align-items: center;
+    /* deixar no centro */
+}
+
+.logo {
+    width: 128px;
+    height: 67px;
+    flex-shrink: 0;
+}
+
+header a {
+    text-decoration: none;
+    /* zerou */
+    color: #fff;
+    /* cor branca a letra */
+}
+
+nav a:hover {
+    color: #B26C1B;
+    /* cor na hora de passar o pulsor */
+}
+
+.rodape {
+    display: flex;
+    /* deixar um ao lado do outro até o inal da pagina */
+    align-items: center;
+    /* deixar tudo ao centro */
+    background: var(--principal-2, #593000);
+    /* cor a caixa */
+    width: 100%;
+    /* a largura da área de conteúdo de um elemento */
+    padding: 8px;
+    /* espaçamento interno dentro da caixa */
+    justify-content: space-between;
+    /* ocupar todo o espaço livre após a disposição dos itens */
+}
+
+
+.fotor {
+    width: 50px;
+    /* a largura da área de conteúdo de um elemento  */
+}
+
+
+.direitos {
+    color: var(--secundria-0, #FFF5D6);
+    /* cor da fonte */
+    text-align: right;
+    /* alinhar um texto a direita */
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    /* nome da fonte */
+    font-size: 16px;
+    /* tamanho da fonte */
+    font-style: normal;
+    /* fonte normal */
+    font-weight: 700;
+    /* peso da fonte */
+    line-height: 20px;
+    /* espaço entre cada letra */
+}
+
+.titulo {
+    text-align: center;
+    color: #593000;
+    /* cor  */
+    font-family: Open Sans;
+    /* fonte */
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.40);
+    /* sombra */
+    font-size: 70px;
+    /* tamanho da fonte */
+    font-style: normal;
+    /* fonte normal */
+    font-weight: 700;
+    /* peso da fonte */
+    line-height: 50px;
+    /* espaço entre as letras */
+    margin-top: 48px;
+    /* margem de cima */
+}
+
+.texto {
+    text-align: center;
+    /* alinhar ao centro */
+    color: #593000;
+    /* cor */
+    font-family: Open Sans;
+    /* nome da fonte */
+    margin-bottom: 120px;
+    /* margem de baixo */
+    font-size: 36px;
+    /* tamanho da fonte */
+    font-style: normal;
+    /* fonte normal */
+    font-weight: 700;
+    /* peso da fonte */
+    line-height: 50px;
+    /* espaço entre as letras  */
+}
+
+.galeria {
+    display: inline;
+    /* deixou um ao lado do outro ate o final da pagina */
+
+
+}
+
+.carrossel img {
+    width: 300px;
+    /* largura */
+    height: 300px;
+    /* altura */
+
+}
+
+
+
+.login-container {
+    padding: 30px;
+    /*definir uma distância interna entre um elemento e sua borda*/
+    border-radius: 8px;
+    /*definir bordas arredondadas*/
+    box-shadow: 0 4px 8px rgba(157, 143, 143, 0.1);
+    /*efeitos de sombra em volta de um elemento*/
+    max-width: 500px;
+    /*largura máxima de um elemento*/
+    width: 100%;
+    /*largura*/
+    text-align: center;
+    /*defini o alinhamento horizontal do texto*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    /*define a margem na parte inferior de um elemento.*/
+    text-align: left;
+    /*defini o alinhamento horizontal do texto*/
+    width: 100%;
+    /*largura*/
+    padding: 8px;
+    /*definir uma distância interna entre um elemento e sua borda*/
+    border-radius: 30px 30px 30px 30px;
+    /*definir bordas arredondadas*/
+    background-color: #000000;
+    /*define a cor de fundo de um elemento.*/
+    border: none;
+    /*adiciona um contorno em volta de um elemento*/
+    color: antiquewhite;
+    /*cor da letra*/
+}
+
+.button {
+    border: none;
+    /*adiciona um contorno em volta de um elemento*/
+    padding: 10px 20px;
+    /*definir uma distância interna entre um elemento e sua borda*/
+    border-radius: 13.055px;
+    /*definir bordas arredondadas*/
+    font-size: 16px;
+    /*tamanho da fonte*/
+    background-color: #ffffff
+        /*define a cor de fundo de um elemento.*/
+
+}
+
+button:hover {
+    background-color: #CC893D;
+    /*define a cor de fundo de um elemento.*/
+}
+
+.cadastro {
+    color: var(--principal-02, #CC893D);
+    /*cor da letra*/
+    font-family: Open Sans;
+    /*fonte da letra*/
+    font-style: normal;
+    /*estilo da fonte*/
+    font-weight: 600;
+    /*intensidade da fonte*/
+    text-align: center;
+    /*defini o alinhamento horizontal do texto*/
+    font-size: 70px;
+    /*tamanho da fonte*/
+    margin-bottom: 40px;
+    /*define a margem na parte inferior de um elemento.*/
+    width: 100%;
+    /*largura*/
+    font-size: 64px;
+}
+
+.termo {
+    color: #FFF;
+    /*cor da letra*/
+    font-family: Open Sans;
+    /*fonte da letra*/
+    font-size: 15px;
+    /*tamanho da fonte*/
+    font-style: normal;
+    /*estilo da fonte*/
+    font-weight: 600;
+    /*intensidade da fonte*/
+    line-height: 50px;
+    /*espaçamento entre as linhas*/
+}
+
+.desconto {
+    color: #FFF;
+    /*cor da letra*/
+    font-family: Open Sans;
+    /*fonte da letra*/
+    font-size: 24px;
+    /*tamanho da fonte*/
+    font-style: normal;
+    /*estilo da fonte*/
+    font-weight: 800;
+    /*intensidade da fonte*/
+    line-height: 50px;
+    /*espaçamento entre as linhas*/
+}
+
+.popup-conteudo {
+    position: fixed;
+    /* terá uma posição fixa na pagina  */
+    top: 50%;
+    /* colocam o elemento no meio da tela. */
+    left: 50%;
+    /* colocam o elemento no meio da tela. */
+    transform: translate(-50%, -50%);
+    /* metade de sua própria largura e metade de sua própria altura, efetivamente centralizando-o na tela. */
+    background-color: rgba(77, 77, 76, 15.0);
+    padding: 30px;
+    /* preenchimento de 20px ao redor do conteúdo */
+    border-radius: 12px;
+    /* Arredonda as bordas do elemento */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Adiciona uma sombra ao redor do elemento */
+    width: 500px;
+
+}
+
+#popup{
+    display: none;
+}
+
+.fechar {
+    position: absolute;
+    /*  elemento terá uma posição absoluta  */
+    top: 10px;
+    /* Posiciona o elemento, 10 pixels de distância do topo  */
+    right: 10px;
+    /* Posiciona o elemento,10 pixels de distância da direita */
+    font-size: 20px;
+    /* tamanho da fonte do texto  */
+    cursor: pointer;
+    /*  cursor do mouse como um ponteiro ao passar sobre o elemento. */
+}
+
+.form-group {
+    width: 80%;
+}
+
+.button {
+    margin: 24px;
+}
